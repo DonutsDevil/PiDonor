@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/menuShowALl"
+            android:checked="true"
+            android:title="ALL"/>
+        <item
+            android:id="@+id/menuA_pve"
+            android:title="A+" />
+        <item
+            android:id="@+id/menuA_ng"
+            android:title="A-" />
+        <item
+            android:id="@+id/menuB_pve"
+            android:title="B+" />
+        <item
+            android:id="@+id/menuB_ng"
+            android:title="B-" />
+        <item
+            android:id="@+id/menuO_pve"
+            android:title="O+" />
+        <item
+            android:id="@+id/menuO_ng"
+            android:title="O-" />
+        <item
+            android:id="@+id/menuAB_pve"
+            android:title="AB+" />
+        <item
+            android:id="@+id/menuAB_ng"
+            android:title="AB-" />
+    </group>
+
+</menu>

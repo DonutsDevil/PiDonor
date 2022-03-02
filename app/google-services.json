@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "221873388560",
+    "project_id": "pidonor-875c0",
+    "storage_bucket": "pidonor-875c0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:221873388560:android:8a7a402172fc124e8d1e95",
+        "android_client_info": {
+          "package_name": "com.example.pidonor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "221873388560-rs5ak7386rvjgoh1h61tovt83ljqtu9d.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.pidonor",
+            "certificate_hash": "4c014350bd952b894a3fc8e53d72ce63a570cf47"
+          }
+        },
+        {
+          "client_id": "221873388560-jmeeghlhuh814ttnmio1fe03kl219v28.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqk3m_V_8LkEmZjkeXnUd3E0-cKVVRWNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "221873388560-jmeeghlhuh814ttnmio1fe03kl219v28.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

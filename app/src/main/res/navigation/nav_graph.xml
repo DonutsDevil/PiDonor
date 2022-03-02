@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/matchingBloodGroupFragment">
+
+    <fragment
+        android:id="@+id/matchingBloodGroupFragment"
+        android:name="com.example.pidonor.views.MatchingBloodGroupFragment"
+        android:label="PiDonor"
+        tools:layout="@layout/fragment_matching_blood_group" >
+        <action
+            android:id="@+id/action_matchingBloodGroupFragment_to_addBloodGroupInfoFragment"
+            app:destination="@id/addBloodGroupInfoFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"/>
+    </fragment>
+    <fragment
+        android:id="@+id/addBloodGroupInfoFragment"
+        android:name="com.example.pidonor.views.AddBloodGroupInfoFragment"
+        android:label="Donation Form"
+        tools:layout="@layout/fragment_add_blood_group_info" />
+</navigation>
